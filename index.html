@@ -1,0 +1,113 @@
+<nav id="navbar">
+    <header>CSS Documentation</header>
+     <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li>
+        <a class="nav-link" href="#Syntax"
+          >Syntax</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Selectors">Selectors</a>
+      </li>
+      <li><a class="nav-link" href="#Comments">Comments</a></li>
+      <li><a class="nav-link" href="#Borders">Borders</a></li>
+      <li>
+        <a class="nav-link" href="#Margin">Margin</a>
+      </li>
+    </ul>
+  </nav>
+  
+  
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <ul>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+   </li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Syntax">
+      <header>Syntax</header> 
+      <p>The selector points to the HTML element you want to style.</p>
+  
+      <p>The declaration block contains one or more declarations separated by semicolons.</p>
+  
+  <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+  
+  <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+      <ul>
+        <li>p is a selector in CSS (it points to the HTML element you want to style:).</li>>
+        <li>color is a property, and red is the property value</li>
+        <li>text-align is a property, and center is the property value</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Selectors">
+      <header>Selectors</header>
+      <p>A CSS selector selects the HTML element(s) you want to style.</p>
+      <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+  <p>We can divide CSS selectors into five categories:Simple selectors (select elements based on name, id, class), 
+  Combinator selectors (select elements based on a specific relationship between them), 
+  Pseudo-class selectors (select elements based on a certain state), 
+  Pseudo-elements selectors (select and style a part of an element), 
+  Attribute selectors (select elements based on an attribute or attribute value), 
+  </p>
+      <div>CSS element selector</div>
+      <code>p {
+    text-align: center;
+    color: red;
+        }</code>
+      <div>CSS ID selector</div>
+      <code>#para1 {
+    text-align: center;
+    color: red;
+  }
+      </code>
+      <div>CSS class selector</div>
+      <code>.center {
+    text-align: center;
+    color: red;
+  }
+      </code>
+      <div>HTML elements can refer more than 1 class</div>
+      <code><p class="center large">This paragraph refers to two classes.</p></code>
+      <div>CSS Universal selector</div>
+      <code>* {
+    text-align: center;
+    color: blue;
+  }</code>
+      <div>The CSS Grouping Selector</div>
+      <code>h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  h2 {
+    text-align: center;
+    color: red;
+  }
+  
+  p {
+    text-align: center;
+    color: red;
+  }
+      </code>
+    </section>
+    <section class="main-section" id="Comments">
+      <header>Comments</header>
+      <p>Comments are used to explain the code, and may help when you edit the source code at a later date.  Comments are ignored by browsers. </p>
+    </section>
+    <section class="main-section" id="Borders">
+      <header>Borders</header>
+      <p>The CSS border properties allow you to specify the style, width, and color of an element's border. The <code>border-style</code> property specifies what kind of border to display </p>
+  
+      <p> we can have many types of borders including border-width, Border-Color, Border-sides, Border-Shorthand, Rounded Borders </p>
+    </section>
+    <section class="main-section" id="Margin">
+      <header>Margin</header>
+      <p>The CSS margin properties are used to create space around elements, outside of any defined borders.  With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).</p>
+    </section>
+  </main>
+  
